@@ -1,0 +1,28 @@
+
+#home {
+  background-color: rgba(255,255,255,1);
+}
+
+#homeText {
+  color: rgba(0,0,0,1);
+}
+
+#homeIcon {
+  color: rgba(0,0,0,1);
+}
+
+h2 {
+  font-size: 500%;
+}
+
+div {
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+}
+
+#name {
+  margin-top: 5%;
+  font-size: 400%;
+}
+
