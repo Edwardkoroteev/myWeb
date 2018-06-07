@@ -1,3 +1,8 @@
+.main {
+  background-color: rgba(232,232,232,.6);
+  margin-left: 18%;
+  width: 79%;
+}
 
 #home {
   background-color: rgba(255,255,255,1);
@@ -11,18 +16,110 @@
   color: rgba(0,0,0,1);
 }
 
-h2 {
+#name {
   font-size: 500%;
 }
 
 div {
-  //display: flex;
-  //justify-content: center;
-  //align-items: center;
+  width: 79%;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro {
+  padding-top: 13%;
+  padding-bottom: 18%;
+}
+
+.inner {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-size: 150%;
 }
 
 #name {
-  margin-top: 5%;
-  font-size: 400%;
+  font-size: 650%;
+  display: flex;
+  justify-content: center;
+  text-items: center;
+  margin-bottom: 0px;
 }
 
+#programmer {
+  text-align: center;
+  margin: 0px;
+  font-size: 200%;
+}
+
+#psuLogo {
+  width: 15%;
+  height: 40%;
+  margin-left: 41%;
+}
+
+#languages {
+  padding: 0px;
+  text-align: center;
+  font-size: 180%;
+  padding-bottom: 15%;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 1%;
+}
+
+#pageTitle {
+  font-size: 150%;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+.jobField {
+  margin-top: 10%;
+  font-size: 150%;
+}
+
+.jobFieldFirst {
+  margin-top: 5%;
+  font-size: 150%;
+  border: 2px solid black;
+}
+
+.jobSpace {
+  padding-bottom: 100px;
+}
+
+.titles {
+  font-size: 200%;
+  width: 79%;
+  margin-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid black;
+}
+
+#topTier {
+  width: 15%;
+  height: 15%;
+}
+
+p {
+  padding 1%;
+}

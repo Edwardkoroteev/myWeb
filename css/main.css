@@ -1,4 +1,4 @@
-body {
+html {
   background-image: url("../images/background.png");
 }
 
@@ -8,7 +8,6 @@ nav {
   left:0;
   height: 100%;
   width: 15%;
-  z-index: 1;
   overflow-x: hidden;
   background-color: rgba(34,38,41,1);
   padding: 0px;
@@ -129,22 +128,21 @@ nav li:hover {
   background-color: rgba(255,255,255,1);
 }
 
-#contact:hover {
-  border-bottom: 1px solid rgba(0,0,0,1);
-}
-
 #contact {
   border-bottom: 2px solid rgba(0,0,0,1);
 }
 
+/*
 div {
   margin-left: 18%;
   margin-right: 15%;
 }
+*/
 
-h1 {
+.title {
   margin-left: 18%;
   margin-right: 15%;
+  width: 79%;
   border-bottom: 2px solid rgba(0,0,0,1);
   font-family: 'Montserrat', sans-serif;
 }
