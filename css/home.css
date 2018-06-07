@@ -94,6 +94,7 @@ li {
 .jobField {
   margin-top: 10%;
   font-size: 150%;
+  border: 2px solid black;
 }
 
 .jobFieldFirst {
@@ -122,4 +123,9 @@ li {
 
 p {
   padding 1%;
+}
+
+.img {
+  padding-top: 1%;
+  padding-left: 2%;
 }
