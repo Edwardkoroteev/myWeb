@@ -1,7 +1,13 @@
 .main {
-  background-color: rgba(232,232,232,.6);
+  background-color: rgba(150,150,150, .6);
   margin-left: 18%;
   width: 79%;
+  height: 80%;
+}
+
+#intro {
+  padding-top: 13%;
+  padding-bottom: 18%;
 }
 
 #home {
@@ -16,10 +22,6 @@
   color: rgba(0,0,0,1);
 }
 
-#name {
-  font-size: 500%;
-}
-
 div {
   width: 79%;
   font-family: 'Montserrat', sans-serif;
@@ -27,13 +29,13 @@ div {
   margin-right: auto;
 }
 
-#intro {
-  padding-top: 13%;
-  padding-bottom: 18%;
-}
-
 .inner {
   text-align: center;
+}
+
+#inner {
+  padding-top: 13%;
+  padding-bottom: 18%;
 }
 
 #description {
@@ -73,20 +75,6 @@ li {
   padding-bottom: 1%;
 }
 
-#pageTitle {
-  font-size: 150%;
-}
-
-.resume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.clear {
-  clear: both;
-}
-
 .right {
   float: right;
 }
@@ -95,16 +83,14 @@ li {
   margin-top: 10%;
   font-size: 150%;
   border: 2px solid black;
+  border-radius: 25px;
 }
 
 .jobFieldFirst {
   margin-top: 5%;
   font-size: 150%;
   border: 2px solid black;
-}
-
-.jobSpace {
-  padding-bottom: 100px;
+  border-radius: 25px;
 }
 
 .titles {
@@ -121,6 +107,16 @@ li {
   height: 15%;
 }
 
+#homeDepot {
+  width: 8%;
+  height: 8%;
+}
+
+#kamanski {
+  width: 17%;
+  height: 17%;
+}
+
 p {
   padding 1%;
 }
@@ -129,3 +125,4 @@ p {
   padding-top: 1%;
   padding-left: 2%;
 }
+
