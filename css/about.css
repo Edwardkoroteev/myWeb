@@ -16,6 +16,7 @@
   margin-left: 18%;
   width: 79%;
   height: 80%;
+  border-radius: 25px;
 }
 
 div {
@@ -87,3 +88,6 @@ p {
   padding-left: 2%;
 }
 
+.lists {
+  text-align: center;
+}
