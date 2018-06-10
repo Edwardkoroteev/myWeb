@@ -1,15 +1,14 @@
-#about {
-  background-color: rgba(255,255,255,1);
-}
-
 #aboutText {
   color: rgba(0,0,0,1);
+}
+
+#about {
+  background-color: rgba(255,255,255,1);
 }
 
 #aboutIcon {
   color: rgba(0,0,0,1);
 }
-
 
 .main {
   background-color: rgba(150,150,150, .6);
@@ -79,10 +78,6 @@ li {
   height: 17%;
 }
 
-p {
-  padding 1%;
-}
-
 .img {
   padding-top: 1%;
   padding-left: 2%;
@@ -91,3 +86,10 @@ p {
 .lists {
   text-align: center;
 }
+
+p {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0px;
+}
+
