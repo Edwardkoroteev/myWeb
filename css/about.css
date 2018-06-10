@@ -27,8 +27,27 @@ div {
   margin-right: auto;
 }
 
+.info {
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+#psuLogo {
+  width: 4%;
+  height: 4%;
+  padding-left: 1.5%;
+  vertical-align: middle;
+}
+
+#cccLogo {
+  width: 14%;
+  height 14%;
+  padding-left: 1.5%;
+  vertical-align: middle;
+}
+
 .education {
-  margin-left: 35%;
+  margin-left: 27%;
   margin-right: auto;
   font-size: 140%;
 }
