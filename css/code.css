@@ -1,3 +1,11 @@
+.main {
+  width: 79%;
+  height: 80%;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -0.9%;
+}
+
 #code {
   background-color: rgba(255,255,255,1);
 }
@@ -13,4 +21,48 @@
 div {
   margin-left: 18%;
   margin-right: 15%;
+  width: 79%;
+}
+
+#tabSection {
+  margin-left: 18%;
+  margin-right: 15%;
+  margin-bottom: 0px;
+  width: 79%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#programs {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(173,77,77,1);
+}
+
+.tabs {
+  float: left;
+}
+
+.tabs a {
+  display: block;
+  color: white;
+  padding: 16px 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tabs a:hover {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1);
+}
+
+#files {
+  margin: 0px;
+}
+
+#fileList {
+  list-style-type: none;
+  width: 25%;
+  background-color: rgba(34,38,41,1);
 }
