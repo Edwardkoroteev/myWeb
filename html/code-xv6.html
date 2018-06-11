@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Edward Portfolio</title>
+    <link href="../css/main.css" rel="stylesheet"/>
+    <link href="../css/code-xv6.css" rel="stylesheet"/>
+    <style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><i id="homeIcon" class="fas fa-home fa-fw fa-lg"></i><a href="home.html">Home</a></li>
+        <li><i id="aboutIcon" class="fas fa-user fa-fw fa-lg"></i><a href="about.html">About</a></li>
+        <li id="code"><i id="codeIcon" class="fas fa-code fa-fw fa-lg"></i><a id="codeText" href="code-xv6.html">Code</a></li>
+        <li><i id="questionIcon" class="fas fa-question fa-fw fa-lg"></i><a href="question.html">Have a question?</a></li>
+        <li id="contact"><i id="contactIcon" class="fas fa-phone fa-fw fa-lg"></i><a href="contact.html">Contact</a></li>
+        <li><i id="githubIcon" class="fab fa-github fa-fw fa-lg"></i><a href="http://github.com/edwardkoroteev" target="_blank">GitHub</a></li>
+        <li><i id="linkedinIcon" class="fab fa-linkedin fa-fw fa-lg"></i><a href="https://www.linkedin.com/in/edward-koroteev-249a6a103/" target="_blank">Linkedin</a></li>
+        <li><i id="facebookIcon" class="fab fa-facebook-square fa-fw fa-lg"></i><a href="https://www.facebook.com/Edward.Koroteev" target="_blank">Facebook</a></li>
+      </ul>
+    </nav>
+    <h1 class="title">Code</h1>
+    <div id="tabSection">
+      <ul id="programs">
+        <li id="xv6"><a id="xv6Text" href="code-xv6.html">XV6 Unix Operating System</a></li>
+        <li class="tabs"><a href="code-chocan.html">ChocAn</a></li>
+        <li class="tabs"><a href="code-tetris.html">Tetris</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <h2 class="titles">XV6 Unix Operating System</h2>
+      <div>
+        <p class="text"><b>What is it?: </b> xv6 is a modern reimplementation of Sixth Edition Unix in ANSI C for
+              multiprocessor x86 systems. It is used for pedagogical purposes in MIT's Operating
+              Systems Engineering. <a href="https://en.wikipedia.org/wiki/Xv6" target="_blank">(click here to find out more)</a></p>
+      </div>
+      <h2 class="titles">Changes I Made to XV6</h2>
+      <div>
+        <ul id="implementation">
+          <li>System Calls</li>
+          <li>Date Command</li>
+          <li>Process List</li>
+          <li>UID, GID, PID</li>
+          <li>Process Execution Time</li>
+          <li>PS Command</li>
+          <li>Time Command</li>
+          <li>Multi-Level Feedback Scheduler</li>
+          <li>File Protection</li>
+        </ul>
+      </div>
+      <h2 class="titles">Visit My Code!</h2>
+      <div>
+        <a href="https://www.github.com/Edwardkoroteev/xv6" target="_blank">
+        <i id="visitCode" class="fab fa-github fa-10x"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

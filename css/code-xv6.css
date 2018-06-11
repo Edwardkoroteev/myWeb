@@ -1,0 +1,108 @@
+.main {
+  background-color: rgba(150,150,150, .6);
+  margin-left: 18%;
+  margin-top: 2%;
+  width: 79%;
+  height: 80%;
+  border-radius: 15px;
+  padding-top: 20px;
+}
+
+
+#xv6 {
+  float: left;
+  background-color: rgba(225,225,225,1);
+}
+
+#xv6Text {
+  display: block;
+  color: rgba(0,0,0,1);;
+  padding: 16px 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#code {
+  background-color: rgba(255,255,255,1);
+}
+
+#codeText {
+  color: rgba(0,0,0,1);
+}
+
+#codeIcon {
+  color: rgba(0,0,0,1);
+}
+
+div {
+  margin-left: 18%;
+  margin-right: 15%; 
+
+}
+
+#tabSection {
+  margin-left: 18%;
+  margin-right: 15%;
+  margin-bottom: 0px;
+  width: 79%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#programs {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(0,0,0,1);
+}
+
+.tabs {
+  float: left;
+}
+
+.tabs a {
+  display: block;
+  color: white;
+  padding: 16px 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tabs a:hover {
+  background-color: rgba(225,225,225,1);
+  color: rgba(0,0,0,1);
+}
+
+.titles {
+  font-size: 200%;
+  width: 79%;
+  margin-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid black;
+  padding-top: 5%;
+}
+
+.titles:first-of-type {
+  padding-top: 2%;
+}
+
+.text {
+  font-size: 150%;
+}
+
+#implementation {
+  text-align: center;
+  list-style-type: none;
+}
+
+#implementation li {
+  font-size: 140%;
+  padding-top: 2%;
+
+}
+
+#visitCode {
+  margin-left: 45%;
+}
+
