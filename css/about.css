@@ -47,9 +47,10 @@ div {
 }
 
 .education {
-  margin-left: 27%;
+  margin-left: 23%;
   margin-right: auto;
   font-size: 140%;
+  padding-bottom: 2%;
 }
 
 .school {
