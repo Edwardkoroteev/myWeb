@@ -9,3 +9,27 @@
 #contactIcon {
   color: rgba(0,0,0,1);
 }
+
+.main {
+  background-color: rgba(150,150,150, .6);
+  margin-left: 18%;
+  width: 79%;
+  height: 80%;
+  border-radius: 15px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+p:first-of-type {
+  padding-left: 3%;
+  padding-top: 3%;
+  font-size: 220%;
+}
+
+p {
+  padding-left: 3%;
+  font-size: 220%;
+}

@@ -39,6 +39,10 @@ div {
 
 }
 
+div:last-of-type {
+  padding-bottom: 3%;
+}
+
 #tabSection {
   margin-left: 18%;
   margin-right: 15%;
