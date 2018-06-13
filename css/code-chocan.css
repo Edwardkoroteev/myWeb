@@ -1,11 +1,40 @@
+.mes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 .main {
   background-color: rgba(150,150,150, .6);
   margin-left: 18%;
-  margin-top: 2%;
-  width: 79%;
+  margin-top: 2%; width: 79%;
   height: 80%;
   border-radius: 15px;
   padding-top: 20px;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
 }
 
 #chocan {
@@ -105,7 +134,7 @@ div:last-of-type {
 
 }
 
-#visitCode {
+#git {
   margin-left: 45%;
+  color: rgba(0,0,0,1);
 }
-
