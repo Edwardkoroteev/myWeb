@@ -5,14 +5,19 @@
     <title>Edward Portfolio</title>
     <link href="../css/main.css" rel="stylesheet"/>
     <link href="../css/home.css" rel="stylesheet"/>
-    <script src="../javascript/splash.js"></script>
+    <script>
+      function myFunction() {
+        alert("hey");
+        document.getElementById("bdy").fadeIn(3000);
+      }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
     </style>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
-  <body onload="myFunction()">
+  <body onload="myFunction()" id="bdy"> 
     <nav>
       <ul>
         <li id="home"><i id="homeIcon" class="fas fa-home fa-fw fa-lg"></i><a id="homeText" href="home.html">Home</a></li>
